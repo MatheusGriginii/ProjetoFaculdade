@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Hotel</title>
+    <style>
+        /* Estilos gerais da página */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+        }
+
+        /* Container do login */
+        .login-container {
+            background: white;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            width: 100%;
+            max-width: 350px;
+        }
+
+        /* Logo */
+        .login-container img {
+            width: 150px;
+            margin-bottom: 15px;
+        }
+
+        /* Campos de entrada */
+        .login-container input {
+            width: 100%;
+            padding: 12px;
+            margin: 8px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        /* Botão de login */
+        .login-container button {
+            width: 100%;
+            padding: 12px;
+            background: #27ae60;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        .login-container button:hover {
+            background: #2ecc71;
+        }
+
+        /* Estilizando o placeholder para melhor aparência */
+        .login-container input::placeholder {
+            color: #aaa;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="login-container">
+        <img src="image.png" alt="Logo Tech Park">
+        <h2>Login</h2>
+        <input type="text" id="username" placeholder="Usuário">
+        <input type="password" id="password" placeholder="Senha">
+        <button onclick="login()">Entrar</button>
+    </div>
+
+    <script>
+        function login() {
+            let username = document.getElementById("username").value;
+            let password = document.getElementById("password").value;
+
+            if (username === "" || password === "") {
+                alert("Por favor, preencha todos os campos.");
+                return;
+            }
+
+            // Simulação de autenticação básica
+            if (username === "admin" && password === "1234") {
+                window.location.href = "dashboard.html";
+            } else {
+                alert("Usuário ou senha incorretos.");
+            }
+        }
+    </script>
+
+</body>
+</html>
