@@ -129,7 +129,7 @@ No console, os seguintes recursos estão disponíveis para o usuário:
 
 ## 👨‍💻 Desenvolvedores'
 
-Desenvolvido com dedicação por:
+Por:
 
 - **Matheus**  
   🌐 [Github](https://github.com/MatheusGriginii)
