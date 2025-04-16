@@ -1,6 +1,6 @@
-# 🏥 Sistema ClínicaDB
+# 🏥 Sistema clinica
 
-O **ClínicaDB** é uma aplicação projetada para realizar o gerenciamento de pacientes, especialidades médicas e consultas. Com uma interface simples e interativa, o sistema permite que clínicas médicas organizem de forma eficiente suas operações, desde o cadastro de pacientes até o agendamento e cancelamento de consultas.
+O **clinica** é uma aplicação projetada para realizar o gerenciamento de pacientes, especialidades médicas e consultas. Com uma interface simples e interativa, o sistema permite que clínicas médicas organizem de forma eficiente suas operações, desde o cadastro de pacientes até o agendamento e cancelamento de consultas.
 
 ---
 
@@ -25,7 +25,7 @@ O **ClínicaDB** é uma aplicação projetada para realizar o gerenciamento de p
 A seguir, a arquitetura do projeto, separada em camadas para facilitar a compreensão e modularidade:
 
 ```plaintext
-ClínicaDB/
+Clinica/
 ├── controller/
 │   ├── ConsultaController.java      # Controla operações relacionadas às consultas.
 │   ├── EspecialidadeController.java # Gerencia especialidades médicas.
@@ -74,7 +74,7 @@ No console, os seguintes recursos estão disponíveis para o usuário:
 
 1. **Clone o repositório**
    ```bash
-   git clone https://github.com/seu-usuario/ClinicaDB.git
+   git clone https://github.com/MatheusGriginii/ProjetoFaculdade.git
    ```
 
 2. **Configuração do banco de dados**  
@@ -132,10 +132,10 @@ No console, os seguintes recursos estão disponíveis para o usuário:
 Desenvolvido com dedicação por:
 
 - **Matheus**  
-  🌐 [Github](https://github.com/matheus)
+  🌐 [Github](https://github.com/MatheusGriginii)
 
 - **João**  
-  🌐 [Github](https://github.com/joao)
+  🌐 [Github](https://github.com/jo-4o)
 
 ---
 
